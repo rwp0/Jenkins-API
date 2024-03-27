@@ -286,7 +286,7 @@ Trigger a build with parameters,
 
     $success = $jenkins->trigger_build_with_parameters('Test-Project', { Parameter => 'Value' } );
 
-The method behaves the same way as L<trigger_build>.
+The method behaves the same way as L</trigger_build>.
 
 =head2 build_queue
 
